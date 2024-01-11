@@ -1,0 +1,30 @@
+register
+=================
+url:http://127.0.0.1:8000/api/register/
+method.post
+body:{"username","email","password"}
+
+login
+
+todo create
+=======================================
+url:http://127.0.0.1:8000/api/todos/
+method:post
+body:{"name","status","user"}
+
+
+list todos
+=========================================
+url:http://127.0.0.1:8000/api/todos/
+method:post
+
+edit todos
+==========================================
+url:http://127.0.0.1:8000/api/todos/{id}/
+body:{}
+method:put
+
+delete todos
+========================================
+url:http://127.0.0.1:8000/api/todos/{id}/
+method:delete
